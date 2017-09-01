@@ -1,0 +1,14 @@
+.title {
+  display: flex;
+  padding: 5px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-header {
+
+}
+
+.title-button {
+  color: #05A;
+}

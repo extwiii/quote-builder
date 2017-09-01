@@ -1,0 +1,27 @@
+.item-list {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #DDD;
+}
+
+.item-list-name {
+
+}
+
+.item-list-price {
+  padding: 0 20px;
+}
+
+.item-list-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-list-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-top: 1px solid #DDD;
+}
