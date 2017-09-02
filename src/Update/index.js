@@ -3,22 +3,18 @@ import PropTypes from 'prop-types';
 import './Update.css';
 
 function Update(props) {
-  const { header, amendStatus, amend } = props;
+  const { resetStatus, updateStatus } = props;
   return (
     <div className="title">
-      <h2 className="title-header">{header}</h2>
-      {amend ?
-        <button className="title-button" onClick={amendStatus} >Cancel Quote</button> :
-        <button className="title-button" onClick={amendStatus} >Amend Quote</button>
-      }
+      <button className="title-button" onClick={resetStatus} >Discard Changes</button>
+      <button className="title-button" onClick={updateStatus} >Update</button>
     </div>
   );
 }
 
 Update.propTypes = {
-  header: PropTypes.string.isRequired,
-  amend: PropTypes.bool.isRequired,
-  amendStatus: PropTypes.func.isRequired,
+  resetStatus: PropTypes.func.isRequired,
+  updateStatus: PropTypes.func.isRequired,
 };
 
 export default Update;
