@@ -8,8 +8,8 @@ function Title(props) {
     <div className="title">
       <h2 className="title-header">{header}</h2>
       {amend ?
-        <button className="title-button" onClick={amendStatus} >Cancel Quote</button> :
-        <button className="title-button" onClick={amendStatus} >Amend Quote</button>
+        <button className="title-button" onClick={amendStatus} >Cancel quote</button> :
+        <button className="title-button" onClick={amendStatus} >Amend quote</button>
       }
     </div>
   );

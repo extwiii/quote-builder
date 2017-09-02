@@ -62,6 +62,7 @@ class Quote extends Component {
   amendStatus = () => {
     this.setState(prevState => ({
       amend: !prevState.amend,
+      edit: false,
     }));
   };
 

@@ -1,14 +1,46 @@
-.title {
+.update {
   display: flex;
-  padding: 5px 30px;
+  padding: 5px 10%;
   align-items: center;
   justify-content: space-between;
 }
 
-.title-header {
-
+.update-discard {
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #DDD;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  width: 220px;
 }
 
-.title-button {
-  color: #05A;
+.update-discard:hover {
+  color: #2CF;
+  background-color: #DDD;
+}
+
+.update-update {
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  background-color: #2CF;
+  width: 220px;
+}
+
+.update-update:hover {
+  color: white;
+  background-color: #2AF;
+}
+
+
+.update-note {
+  font-size: 14px;
+  color: #777;
+  margin: 20px 0;
 }

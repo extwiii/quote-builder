@@ -4,3 +4,7 @@ body {
   background: #EEE;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+button {
+  border-radius: 3px;
+}

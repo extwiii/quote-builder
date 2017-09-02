@@ -1,17 +1,28 @@
+.list {
+  padding: 0 30px;
+}
+
 .item-list {
   display: flex;
-  padding: 0 30px;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #DDD;
 }
 
 .item-list-name {
-
+padding: 0 20px;
+margin: 10px 0;
 }
 
 .item-list-price {
   padding: 0 20px;
+  margin: 10px 0;
+}
+
+.item-list-price-total {
+  padding: 0 10px;
+  margin: 10px 0;
+  color: #2CF;
 }
 
 .item-list-edit {
@@ -24,4 +35,33 @@
   justify-content: space-between;
   padding: 0 30px;
   border-top: 1px solid #DDD;
+}
+
+.item-list-input {
+  padding: 10px;
+  margin-top: 5px;
+  width: 30%;
+}
+
+.item-list-edit-button {
+  color: #2CF;
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.item-list-add-button {
+  color: #2CF;
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+.item-list-add {
+  border-top: 1px solid #DDD;
+  padding: 20px;
+  text-align: left;
 }

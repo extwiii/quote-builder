@@ -5,4 +5,25 @@
   background: #FFF;
   border-radius: 3px;
   box-shadow: 5px 5px 5px #CCC;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1025px) {
+  .Quote {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Quote {
+    width: 95%;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 350px) {
+  .Quote {
+    width: 95%;
+    font-size: 0.75em;
+  }
 }
