@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-[Live](https://extwiii-quote-builder.herokuapp.com/)
+[Live](https://extwiii-quote-builder.herokuapp.com/)  [Live NOW!](https://quote-builder-qnmjngdwjd.now.sh/)
 
 Features
 --------
